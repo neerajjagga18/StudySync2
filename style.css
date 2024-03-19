@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.header-content{
+    padding: 0rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#pen{
+    height: 4.4rem;
+}
+#logoname{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.logo{
+    color: black;
+    text-decoration: none;
+}
+.listitems{
+    font-size: 1.2rem;
+    color: rgb(88, 88, 88);
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease 0s;
+}
+#home:hover{
+    color:rgb(56, 99, 219) ;
+}
+#features:hover{
+    color:rgb(56, 99, 219) ;
+}
+#pricing:hover{
+    color:rgb(56, 99, 219) ;
+}
+#blog:hover{
+    color:rgb(56, 99, 219) ;
+}
+#about:hover{
+    color:rgb(56, 99, 219) ;
+}
+#contactus{
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.5rem;
+    background-color:rgb(56, 99, 219);
+    padding: 0.5rem 1.1rem;
+    font-size: 1.1rem;
+    transition: 0.2s linear 0s;
+}
+#contactus:hover{
+    color:rgb(56, 99, 219);
+    background-color: white;
+    border: 0.7px solid rgb(56, 99, 219);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem 20rem;
+}
+.leftmain{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+#smallhead{
+    font-size: 1.1rem;
+    font-weight: 500;
+   color:  rgb(56, 99, 219) ;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#heading{
+    font-size: 3rem;
+    font-family: "Coiny", system-ui;
+  font-weight: 900;
+}
+#para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
+    padding: 0.9rem 0rem;
+    padding-right: 8rem;
+}
+#mainimg{
+    border-radius: 1.4rem;
+    height: 30rem;
+    width: 25rem;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+}
+.buttons button{
+    color: white;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.2s linear 0s;
+}
+#startnow{
+    background-color:  rgb(56, 99, 219);
+}
+#startnow:hover{
+    color:rgb(56, 99, 219);
+    background-color: white;
+    border: 1px solid rgb(56, 99, 219);
+}
+#taketour{
+    color:rgb(56, 99, 219);
+    background-color: white;
+    border: 1px solid rgb(56, 99, 219);
+}
+#taketour:hover{
+   border: none;
+   background-color:rgb(56, 99, 219) ;
+   color: white;
+}
+.trustedbythe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#trusted{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.companies{
+    color: rgb(99, 99, 99);
+    gap: 3rem;
+    background-color:rgb(216, 216, 216);
+    padding: 1.8rem 3rem; 
+    border-radius: 0.5rem;
+    display: flex;
+}
+.google{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+#googleimg{
+    height: 1.8rem;
+}
+#googlename{
+    font-size: 1.3rem;
+}
+.card-section{
+   border-top-left-radius: 3rem;
+   border-top-right-radius: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    padding: 2rem;
+}
+.cardheading{
+    gap: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card-desc{
+   
+}
+.card-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0rem 0rem;
+    color:rgb(99, 99, 99);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.card-one{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    border-radius: 0.4rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: rgb(218, 131, 0);  
+}
+#bulb{
+    height: 3.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+#card-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card-para{
+    font-weight: 300;
+    font-size: 1.1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#card-one{
+background-color: #c99300;
+}
+#card-two{
+background-color: #720e9e;
+}
+#card-three{
+    background-color: rgb(100, 100, 100);
+}
+#card-four{
+    background-color: rgb(0, 138, 143);
+}
+#card-five{
+    background-color: rgb(122, 150, 0);
+}
+#card-six{
+    background-color: rgb(71, 121, 214);
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+#rev-heading{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.rev-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.rev-card-one{
+    font-weight: 400;
+    padding: 1rem 1rem;
+    border: 1.2px solid gray;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.2s ease-in-out 0s;
+}
+.rev-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+#female{
+    height: 4rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.about-teacher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+#name{
+    color: rgb(58, 58, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+#proff{
+    color: rgb(82, 82, 82);
+    font-size: 0.9rem;
+}
+#rev-card-one:hover{
+     transform: scale(1.08);
+     border-color:rgb(58, 58, 255) ;
+}
+#rev-card-two:hover{
+    transform: scale(1.08);
+     border-color:rgb(58, 58, 255) ;
+}
+#rev-card-three:hover{
+    transform: scale(1.08);
+     border-color:rgb(58, 58, 255) ;
+}
+.logo2{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.getupdates{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+#updatesimg{
+    height: 25rem;
+}
+.right{
+    height: 25rem;
+    padding: 1rem 4rem;
+    background-color: rgba(129, 154, 224, 0.301);
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#newsheading{
+    font-size: 3rem;
+    font-weight: 800;
+    color:rgb(48, 100, 241);
+}
+#newssubheading{
+    padding: 0.1rem 0.2rem;
+    font-size: 1.2rem;
+    color: rgb(73, 73, 73);
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.emailsend{
+    padding: 0.5rem 0.2rem;
+    display: flex;
+    gap: 0.6rem;
+}
+#email{
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 0.3rem;
+    padding: 0rem 0.5rem;
+    height: 150%;
+    font-size: 1.02rem;
+}
+#send{
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    height: 150%;
+    padding: 0.1rem 0.6rem;
+    font-size: 1.1rem;
+    background-color:rgb(48, 100, 241) ;
+    transition: 0.3s ease 0s
+}
+#send:hover{
+    transform: scale(1.05);
+}
+#policy{
+    padding: 1rem 0.2rem;
+    font-size: 0.95rem;
+}
+.fullfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    width: 90%;
+    display: flex;
+    gap: 6rem;
+    padding: 3rem 8rem;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.leftfooter{
+    /* background-color: thistle; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+#logonamefooter{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#subheadingfooter{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    color: rgb(51, 51, 51);
+}
+.companiesfooter{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1rem 0rem;
+    padding-left: 1rem;
+}
+.rightfooter{
+    display: flex;
+    gap: 8rem;
+}
+.line1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    color: rgb(51, 51, 51);
+    gap: 1.4rem;
+    font-weight: 400;
+}
+.items li{
+    list-style: none;
+}
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+}
